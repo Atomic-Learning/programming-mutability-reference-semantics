@@ -1,0 +1,21 @@
+{
+    "title": "Programming: Mutability and Reference Semantics",
+    "slug": "programming-mutability-reference-semantics",
+    "description": "Explores how mutability interacts with reference semantics in languages like Python, Java, and JavaScript. Covers aliasing problems, the behavior of mutable and immutable objects when variables share references, and implications for function parameters and copying.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "programming",
+        "pseudocode"
+    ],
+    "duration": 7,
+    "prerequisites": [
+        "programming-mutability-immutability",
+        "programming-lists",
+        "programming-objects-types"
+    ],
+    "related": [
+        "python-mutable-immutable-types"
+    ]
+}
