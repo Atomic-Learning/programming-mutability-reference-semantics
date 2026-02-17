@@ -12,7 +12,7 @@
     "duration": 4,
     "prerequisites": [
         "programming-mutability-immutability",
-        "programming-lists",
+        "programming-lists-arrays",
         "programming-objects-types"
     ],
     "related": [
