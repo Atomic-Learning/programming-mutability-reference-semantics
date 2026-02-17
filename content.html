@@ -5,7 +5,7 @@
 
 <p>In reference-semantic languages, when you assign a value to a variable, the variable holds a reference (or pointer) to an object in memory, not the object itself:</p>
 
-<pre><code class="pseudocode">x = [1, 2, 3]              // x references a list object in memory
+<pre><code>x = [1, 2, 3]              // x references a list object in memory
 y = x                      // y references the SAME list object</code></pre>
 
 <p>Both <code>x</code> and <code>y</code> now refer to the same underlying list object in memory.</p>
@@ -14,7 +14,7 @@ y = x                      // y references the SAME list object</code></pre>
 
 <p><strong>Aliasing</strong> occurs when multiple variables refer to the same mutable object. As a consequence, modifications made through one variable will be visible through all of them:</p>
 
-<pre><code class="pseudocode">list1 = [1, 2, 3]
+<pre><code>list1 = [1, 2, 3]
 list2 = list1              // list2 refers to the SAME list as list1
 list2[0] = 10              // Modify the first item of the list through list2
 PRINT list1[0]             // Output: 10 (list1 saw the change!)</code></pre>
@@ -25,7 +25,7 @@ PRINT list1[0]             // Output: 10 (list1 saw the change!)</code></pre>
 
 <p>With immutable objects, aliasing doesn't work the same way because the object can't be changed:</p>
 
-<pre><code class="pseudocode">string1 = "hello"
+<pre><code>string1 = "hello"
 string2 = string1          // Both refer to the same string
 string2 = "goodbye"        // Creates a NEW string, assigns to string2
 PRINT string1              // Output: "hello" (unchanged)</code></pre>
